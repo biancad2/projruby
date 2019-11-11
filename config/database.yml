@@ -21,7 +21,8 @@ test:
   database: db/test.sqlite3
 
 production:
-  host: 127.0.0.1
+  host: localhost
+  adapter: postgresql
   port: 5432
   database: aularuby
   user: rootruby
