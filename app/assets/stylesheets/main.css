@@ -1,0 +1,221 @@
+.logo:hover{
+    filter: drop-shadow(-1px -1px 8px #000000);
+    transition-duration: 1s;
+}
+.blog-header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+
+.navbar-brand{
+    color: #fff;
+}
+.icone-pesquisa{
+    color: #fff;
+}
+
+.icon
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+
+
+
+
+.header{
+    background-color: #800000;;
+}
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+h1{
+    margin-bottom: 0 !important;
+}
+.text-image{
+    background-color: rgba(185, 2, 2, 0.9)
+}
+/*
+ * Blog name and description
+ */
+.blog-title {
+  margin-bottom: 0;
+  font-size: 2rem;
+  font-weight: 400;
+}
+.blog-description {
+  font-size: 1.1rem;
+  color: #999;
+}
+
+@media (min-width: 40em) {
+  .blog-title {
+    font-size: 3.5rem;
+  }
+}
+
+li{
+    margin-right: 2%;
+}
+
+.nav-item a{
+    color: #B59524 !important;
+}
+
+.sufle{
+    background-image: url(../imagens/comidas/sufle.jpg);
+    background-size: 100% 100%;
+    
+    height: 35rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ad-imagem{
+    width: 100%;
+    text-align: center  
+}
+
+.ad-imagem > img{
+    width:40%;  
+}
+
+.btn-receita{
+    background-color: #800000;
+    padding: 2%;
+    color: #fff;
+    border: 1px solid #800000;
+    border-radius: 10%;
+    font-weight: bold
+}
+
+.texto-principal{
+    position: relative;
+    top: 20%;
+    text-align: center
+}
+.recentes{
+    width: 100%;
+    text-align: center;
+    background-color: #800000;
+    color: #fff;
+}
+
+h4{
+    font-size:1.2rem;
+    text-align: center;
+}
+.bolo{
+    color:#4A2525;
+}
+.frango{
+    color:#B59524;
+}
+.card-img-top{
+    height: 10rem;
+}
+.titulo-receita{
+    text-align: center;
+}
+.active > a{
+    color: #800000 !important;
+    text-shadow: 0.5px 0.5px 0.5px red;
+}
+.nav-link:hover{
+    color: #800000 !important;
+}
+
+.video{
+    width: 98%;
+    text-align: center;
+    margin-top: 2%; 
+}
+
+.sessao-um{
+    width: 15rem;
+    background-image: url(../imagens/comidas/batata.jpg);  
+}
+.sessao-dois{
+    width: 15rem;
+    background-image: url(../imagens/comidas/strogonoff-de-berinjela.jpg);  
+}
+.texto-dois{
+    background-color: #fff;
+    text-align: center
+}
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+.blog-pagination > .btn {
+  border-radius: 2rem;
+}
+.conteudo{
+    padding: 2%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-title {
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #999;
+}
+
+/*
+ * Footer
+ */
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+
+@media (max-width: 900px){
+    .sufle{
+        width: 100%;
+    }
+    
+
+}
