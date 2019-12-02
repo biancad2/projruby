@@ -88,7 +88,7 @@ li{
 }
 
 .sufle{
-    background-image: url(../imagens/comidas/sufle.jpg);
+    background-image: url(comidas/sufle.jpg);
     background-size: 100% 100%;
     
     height: 35rem;
@@ -159,11 +159,11 @@ h4{
 
 .sessao-um{
     width: 15rem;
-    background-image: url(../imagens/comidas/batata.jpg);  
+    background-image: url(comidas/batata.jpg);  
 }
 .sessao-dois{
     width: 15rem;
-    background-image: url(../imagens/comidas/strogonoff-de-berinjela.jpg);  
+    background-image: url(comidas/strogonoff-de-berinjela.jpg);  
 }
 .texto-dois{
     background-color: #fff;
