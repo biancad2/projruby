@@ -9,4 +9,5 @@ Rails.application.routes.draw do
   get "/bovina.html.erb", to: "menu#bovina"
   get "/peixe.html.erb", to: "menu#peixe"
   get "/cond/:nome", to: "pagina#cond"
+  get "/sylesheets/application.css", to: "pagina#estilo"
 end

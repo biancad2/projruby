@@ -13,4 +13,6 @@ class MenuController < ApplicationController
     
     def peixe
     end
+    def estilo
+    end
 end
