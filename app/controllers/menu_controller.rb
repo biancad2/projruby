@@ -2,11 +2,15 @@ class MenuController < ApplicationController
     def teste
     end
     
-    def numero()
-        @var = params[:x]
-        @var2 = params[:y]
+    def frango
     end
     
     def root
+    end
+    
+    def bovina
+    end
+    
+    def peixe
     end
 end
