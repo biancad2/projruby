@@ -164,7 +164,7 @@ h4{
 }
 .sessao-dois{
     width: 15rem;
-    background-image: url(comidas/strogonoff-de-berinjela.jpg);  
+    background-image: url(https://raw.githubusercontent.com/biancad2/projruby2/master/app/assets/images/comidas/strogonoff-de-berinjela.jpg);  
 }
 .texto-dois{
     background-color: #fff;
@@ -212,18 +212,36 @@ h4{
   margin-bottom: 0;
 }
 
-
+.mande-receita-resp{
+  display: none;
+}
 @media (max-width: 900px){
     .sufle{
         width: 100%;
     }
-    
+    .icone-pesquisa{
+      display: none;
+    }
+    .mande-receita{
+      display: none;
+    }
+    .mande-receita-resp{
+  display: block;
+  width: 100%;
+}
+    .header{
+      display: flex ;
+  align-items: center;
+  justify-content: center
+    }
+   
 
 }
 </style>
 <nav class="navbar header"> 
-          <a class="btn btn-sm btn-outline-light" href="#">Mande sua receita</a>
+          <a class="btn btn-sm btn-outline-light mande-receita" href="#">Mande sua receita</a>
           <a class="navbar-brand" href="#"><img src="https://i.ibb.co/K05tqnW/logo.png" width="150" height="80" alt="#" class="logo"></a>
+          <a class="btn btn-sm btn-outline-light mande-receita-resp" href="#">Mande sua receita</a>
           <a class="icone-pesquisa" href="#">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24" focusable="false"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"/><path d="M21 21l-5.2-5.2"/></svg>
         </a>
@@ -294,7 +312,7 @@ h4{
                   <div class="col-md-8 px-0 texto-principal">
                       <h1 class="font-italic text-image text-white">SUFLÊ DE LEGUMES</h1>
                       <p class="texto-dois">Suflê de legumes com água de coco</p>
-                      <a href="https://veganapratica.com/sufle-de-legumes-com-leite-de-coco/" >veja a receita</a>
+                      <a href="https://veganapratica.com/sufle-de-legumes-com-leite-de-coco/" class="btn btn-danger">veja a receita</a>
                   </div>
                   </div>
                   
@@ -362,7 +380,7 @@ h4{
           <div class="row">
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
-                <img class="card-img-top" src="comidas/bolo-de-cenoura.jfif" alt="Bolo de cenoura com cobertura de chocolate">
+                <img class="card-img-top" src="https://receitatodahora.com.br/wp-content/uploads/2018/11/bolo-de-cenoura-com-cobertura-de-brigadeiro.jpg" alt="Bolo de cenoura com cobertura de chocolate">
                 <div class="card-body">
                     <h4 class="bolo">Bolo de cenoura</h4>
                   <p class="card-text">Bolo de cenoura com cobertura de chocolate</p>
@@ -375,7 +393,7 @@ h4{
             </div>
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
-                <img class="card-img-top" src="comidas/fricasse.jfif" alt="Card image cap">
+                <img class="card-img-top" src="https://i.ibb.co/NTqfL4Z/fricasse.jpg" alt="Card image cap">
                 <div class="card-body">
                   <h4 class="frango">Fricassê de frango</h4>
                   <p class="card-text">Molho com creme de leite, milho, requeijão, azeitona...</p>
@@ -390,7 +408,7 @@ h4{
             </div>
             <div class="col-md-4">
               <div class="card mb-4 shadow-sm">
-                <img class="card-img-top" src="comidas/bolo-de-banana.jfif" alt="Card image cap">
+                <img class="card-img-top" src="https://i.ibb.co/RB64Bq2/bolo-de-banana.jpg alt="Card image cap">
                 <div class="card-body">
                   <h4 class="frango">Bolo de banana integral</h4>
                   <p class="card-text">Bolo de banana com farinha de trigo integral...</p>
