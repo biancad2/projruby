@@ -158,9 +158,27 @@ h4{
     margin-top: 2%; 
 }
 
+.sessao-um{
+    width: 15rem;
+    background-image: url(https://raw.githubusercontent.com/biancad2/projruby2/master/app/assets/images/comidas/batata.jpg);  
+}
+.sessao-dois{
+    width: 15rem;
+    background-image: url(https://raw.githubusercontent.com/biancad2/projruby2/master/app/assets/images/comidas/strogonoff-de-berinjela.jpg);  
+}
 .texto-dois{
     background-color: #fff;
     text-align: center
+}
+.almondegas{
+    width: 15rem;
+    background-image: url(https://imprensapublica.com.br/wp-content/uploads/2019/04/16_30_37_686_155.jpg); 
+    background-size: 100% 100%;
+}
+.escondidinho{
+    width: 15rem;
+    background-image: url("https://i.ibb.co/PzybK2H/images.jpg"); 
+    background-size: 100% 100%;
 }
 /* Pagination */
 .blog-pagination {
@@ -175,6 +193,20 @@ h4{
     margin: 0 auto;
 }
 
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-title {
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #999;
+}
 
 /*
  * Footer
@@ -189,7 +221,9 @@ h4{
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
-
+   .row{
+     margin-bottom: 2%;
+   }
 .mande-receita-resp{
   display: none;
 }
@@ -212,7 +246,7 @@ h4{
   align-items: center;
   justify-content: center
     }
-   
+
 
 }
 </style>
@@ -243,43 +277,76 @@ h4{
                   <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Doces e sobremesas</a>
                       <div class="dropdown-menu" aria-labelledby="dropdown01">
-          
-                          <a class="dropdown-item" href="bolos.html.erb">Bolos</a>
-                    
+                          <a class="dropdown-item" href="#">Caldas</a>
+                          <a class="dropdown-item" href="#">Bolos</a>
+                          <a class="dropdown-item" href="#">Doces de festa</a>
+                          <a class="dropdown-item" href="#">Mousses</a>
+                          <a class="dropdown-item" href="#">Pudins</a>
                       </div>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link " href="vegana.html.erb">Vegana </a>
+                      <a class="nav-link " href="#">Fitness </a>
                   </li>
-                 
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Hortifruti</a>
+                      <div class="dropdown-menu" aria-labelledby="dropdown01">
+                          <a class="dropdown-item" href="#">Frutas</a>
+                          <a class="dropdown-item" href="#">Hortaliças</a>
+                          <a class="dropdown-item" href="#">Legumes</a>  
+                          <a class="dropdown-item" href="#">Verduras</a>
+                      </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Massas</a>
+                      <div class="dropdown-menu" aria-labelledby="dropdown01">
+                          <a class="dropdown-item" href="#">Pães</a>
+                          <a class="dropdown-item" href="#">Tortas</a>  
+                          <a class="dropdown-item" href="#">Outras</a>
+                      </div>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Saudáveis</a>
+                  </li> 
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Rápidas</a>
+                  </li> 
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Veganas</a>
+                  </li> 
               </ul>
           </div>
       </nav>
-       <div class="conteudo">
-          <h1 class="titulo-receita"> Frango xadrez</h1>
-   
-              <div class="video">
-          <iframe class="col-md-12" height="500" src="https://www.youtube.com/embed/ByB4iqhYp_U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        </div>
-          <h2>Ingredientes</h2>
-              <ul>
-                  <li>1 kg de filé de frango cortado em cubos</li>
-                  <li>1 xícara (chá) de farinha de trigo</li>
-                  <li>4 colheres (sopa) de azeite ou óleo</li>
-                  <li>2 cebolas cortadas em cubos médios</li>
-                  <li>1 pimentão verde cortado em cubos</li>
-                  <li>1 pimentão vermelho cortado em cubos</li>
-                  <li>1 pimentão amarelo cortado em cubos</li>
-              </ul>
-          <h2>Modo de preparo</h2>
-              <ol>
-                  <li>Passe o frango já cortado na farinha de trigo..</li>
-                  <li>Em uma frigideira ou panela grande, doure o frango no azeite e reserve.a.</li>
-                  <li>Em seguida, pegue pequenas porções da massa, abra-a na palma de sua mão e coloque o recheio no centro — no caso, a mussarela ralada com orégano ou outro queijo de sua preferência.</li>
-                  <li>Agora, feche as almôndegas (em formato de bolinhas mesmo) e passe-as levemente sobre a farinha de trigo para empanar.</li>
-                  <li>Ferva o molho de tomate e, se desejar, acrescente nele cebola picada e alho amassado.</li>
-                  <li>Agora, leve ao forno para assar em forno preaquecido a 180º C por cerca de 30 minutos ou até as almôndegas estarem bem cozidas.</li>
-              </ol>
-
+      <div class="conteudo">
+        <h1>Carne bovina</h1>
+          <div class="row">
+              <div class="col-md-12">
+                  <div class="row no-gutters border rounded overflow-hidden flex-md-row  shadow-sm h-md-250 position-relative">
+                      <div class="col p-4 d-flex flex-column position-static">
+                          <h3 class="mb-0">Almôndega</h3>
+                          <div class="mb-1 text-muted">Por: Blog Tudo Gostoso</div>
+                          <p class="card-text mb-auto">Almôndega de Carne Moída Recheada.</p>
+                           <a href="/almondega" class="stretched-link text-warning">Veja a receita</a>
+                      </div>
+                      <div class="col-auto d-none d-lg-block almondegas" >
+                      </div>
+                  </div>
+              </div>
+              </div>
+              <div class="row">
+              <div class="col-md-12">
+                  <div class="row no-gutters border rounded overflow-hidden shadow-sm h-md-250">
+                      <div class="col p-4 d-flex flex-column position-static">
+                          <h3 class="mb-0">Escondidinho</h3>
+                          <div class="mb-1 text-muted">Tudo Gostoso</div>
+                          <p class="mb-auto">Escondidinho de carne moída com purê de batata.</p>
+                          <a href="/escondidinho" class="stretched-link text-success">Veja a receita</a>
+                      </div>
+                      <div class="col-auto d-none d-lg-block escondidinho" >
+                      </div>
+                  </div>
+              </div>
+          </div>
+</div>
 <footer class="blog-footer">
   <p>
     <a href="#">Voltar para o topo</a>

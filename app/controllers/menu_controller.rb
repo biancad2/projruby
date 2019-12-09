@@ -15,5 +15,14 @@ class MenuController < ApplicationController
     end
     def estilo
     end
+    
+    def receita
+    end
+    
+    def vegana
+    end
+    
+    def bolos
+    end
 
 end
