@@ -8,6 +8,9 @@ Rails.application.routes.draw do
   get "/frango.html.erb", to: "menu#frango"
   get "/bovina.html.erb", to: "menu#bovina"
   get "/peixe.html.erb", to: "menu#peixe"
-  get "/cond/:nome", to: "pagina#cond"
+  get "/almondega", to: "receitas#almondega"
+  get "/escondidinho", to: "receitas#escondidinho"
+  get "/frangoXadrez", to: "receitas#frangoXadrez"
+  get "/fricasseDeFrango", to: "receitas#fricasseDeFrango"
   get "/sylesheets/application.css", to: "sylesheets#application"
 end
